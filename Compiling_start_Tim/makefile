@@ -4,4 +4,4 @@ all:
 	g++ hello.o main.o -o program
 
 clean:
-	rm *.o prog3
+	rm program *.o
