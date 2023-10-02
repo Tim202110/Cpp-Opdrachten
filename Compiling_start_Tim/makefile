@@ -1,7 +1,7 @@
 all:
-	g++ -c hello.cpp -o hello.o
+	g++ -c simplemath.cpp -o simplemath.o
 	g++ -c main.cpp -o main.o
-	g++ hello.o main.o -o program
+	g++ simplemath.o main.o -o program
 
 clean:
 	rm program *.o
