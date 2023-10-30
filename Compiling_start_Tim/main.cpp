@@ -7,6 +7,7 @@ int main(void)
 
     std::cout << multiply(2, 3) << std::endl;
     std::cout << sumOfNumbersFromOneTo(10) << std::endl;
+    std::cout << smartSum(10) << std::endl;
 
     return 0;
 }

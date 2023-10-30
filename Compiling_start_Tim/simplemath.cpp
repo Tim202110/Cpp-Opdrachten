@@ -23,3 +23,8 @@ int sumOfNumbersFromOneTo(int o)
 
     return sum;
 }
+
+int smartSum (int n)
+{
+    return (n / 2) * (n + 1);
+}
